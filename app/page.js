@@ -5,10 +5,13 @@ export default function Landingpage() {
   2. dark/light mode conditonal css(break point 
   4. animations  dark:bg-blue-950*/
   return (
-    <div className="bg-gray-200 flex flex-col items-center justify-center min-h-screen w-full ">
-      <div className="min-h-screen bg-black h-[500px]  items-center rounded-[80px] mx-[100px] flex flex-col">
-        <div className="bg-gray-800 h-[100px] rounded-2xl w-[1200px] flex flex-row justify-center items-center py-2 ">
-          <img src="https://themehealer.com/php-template/crank-php/assets/images/resources/logo-1.png" />
+    <div className="bg-gray-200 flex flex-col items-center justify-center h-full md:min-h-screen w-fit md:w-full ">
+      <div className="min-h-screen bg-black w-[100%] md:w-[1400px] h-[3000px}]] md:h-[500px]  items-center md:rounded-[80px] mx-[100px] flex flex-col">
+        <div className="bg-gray-800 h-[400px] md:h-[100px] rounded-2xl w-[1400px] md:w-[1200px] flex flex-row justify-center items-center py-2 ">
+          <img
+            className="md:h-[50px] h-[200px]"
+            src="https://themehealer.com/php-template/crank-php/assets/images/resources/logo-1.png  "
+          />
 
           <div className="flex flex-row">
             <div className=" hidden md:block px-[40px] underline underline-offset-4 mr-[20px] mt-2.5  text-red-600 font-bold">
@@ -33,10 +36,10 @@ export default function Landingpage() {
             {/*hidden and block:md is used to hide an html codevfor certian contions */}
           </div>
           <div className="flex flex-row">
-            <div className="rounded-full hover:bg-black hover:text-white bg-gray-600  border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
+            <div className=" hidden md:block rounded-full  hover:bg-black hover:text-white bg-gray-600  border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
               F
             </div>
-            <div className= "hidden md:block rounded-full hover:bg-black hover:text-white bg-gray-600 border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
+            <div className="hidden md:block rounded-full hover:bg-black hover:text-white bg-gray-600 border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
               t
             </div>
             <div className=" hidden md:block rounded-full hover:bg-black hover:text-white  bg-gray-600  border border-cyan- border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
@@ -45,12 +48,15 @@ export default function Landingpage() {
             <div className=" hidden md:block rounded-full hover:bg-black hover:text-white bg-gray-600  border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
               F
             </div>
-            <div className=" hidden md:block rounded-full  hover:bg-black hover:text-white bg-gray-600  border border-cyan border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
+            <div className=" hidden md:block rounded-full  hover:bg-black hover:text-white bg-gray-600  border border-cyan border-4 bg-cyanw-[150px]h-[50px] text-center mt-[10px] w-[50px] py-2">
               F
             </div>
           </div>
-          <div className=" hidden md:block rounded-full hover:bg-black hover:text-white bg-gray-400  border border-b-cyan-950 border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] md:ml-[50px] w-[50px] py-2">
+          <div className="  rounded-full hover:bg-black hover:text-white bg-gray-400  border border-b-cyan-950 border-4 bg-cyanw-[150px]  h-[150px] md:h-[50px] md:w-[50px] w-[150px] text-center md:mt-[10px]  ml-[350px] md:ml-[50px] w-[50px] py-2">
             F
+            {/*hidden md:block is used to block full div from moblie view ....md:text-white makes text
+          visible white in laptop view but hides it in mbl view  so when mbl responsive nes ...you 
+          make the mbl view px as default anad for rest you use md :"things you want to hide from the mbl view" */}
           </div>
         </div>
 
@@ -58,22 +64,22 @@ export default function Landingpage() {
         <div className="flex flex-row bg-black-200 h-[700px]  text-white rounded-4xl ">
           {/* text*/}
           <div>
-            <div className="text-white text-lg font-bold text-[30px] w-[400px] font-semibold mt-[150px]">
+            <div className="text-white  font-bold text-9xl md:text-4xl md:w-[400px] font-semibold ml-[60px] mt-[150px]">
               Where Quality is A <br />
               Service Meets The
               <br />
               <span className="text-red-600">Open Road</span>
-              <div className="text-white text-sm">
+              <div className="text-white text-3xl md:text-sm">
                 car service is essential for maintaining the performance and{" "}
                 <br />
                 longevity of your vehicle from all changes ar service
               </div>
             </div>
-            <div className="flex flex-row  ">
-              <div className="rounded-4xl border border-red-700 border-4 bg-cyanw-[150px] h-[50px] w-[150px] text-center mt-[30px]">
+            <div className="flex flex-col md:flex-row  ">
+              <div className=" text-2xl md:text-2xl rounded-4xl border border-red-700 border-4 bg-cyanw-[150px] h-[50px] w-[150px] text-center ml-[60px] md:ml-[60px] mt-[50px] md:mt-[30px]">
                 Get started
               </div>
-              <div className="rounded-full  bg-red-600  border border-black mt-[30px] ml-[50px] border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
+              <div className="rounded-full  bg-red-600  border border-black mt-[30px] ml-[60px] md:ml-[60px] border-4 bg-cyanw-[150px] h-[50px] text-center mt-[10px] w-[50px] py-2">
                 +
               </div>
             </div>
@@ -81,48 +87,53 @@ export default function Landingpage() {
 
           <div className="flex h-[500px]  text-amber-200 ml-[30px] mt-[100px] rounded-4xl">
             <img
-              className="w-[400px] h-[400px] rounded-3xl"
+              className="hidden md:block w-[400px] h-[400px] rounded-3xl"
               src="https://themehealer.com/php-template/crank-php/assets/images/resources/main-slider-img-1.jpg"
             />
           </div>
         </div>
         {/* Statistics overlay card  dark:bg-black dark-border-white dark:text-white*/}
-        <div
-          className="bg-white w-[1000px] h-[100px] 
-          absolute bottom-[-40px] rounded-md shadow-white shadow-md border
-          border-black flex flex-row items-center justify-evenly space-x-2.5"
-        >
-          <div className="font-extrabold text-4xl ">600+</div>
-          <div className="font-extrabold text-4xl">2K+</div>
-          <div className="font-extrabold text-4xl">53+</div>
-          <div className="font-extrabold text-4xl">3K+</div>
-        </div>
+        {/*flex flex-col md:flex-row meaining in mbl view it will be arrange col vise and 
+        in laptop it will be row wise */}
+       
       </div>
+       <div className="relative flex  justify-center items-center">
+          <div
+            className="bg-white w-[1000px] md:w-[1000px] h-[400px] md:h-[100px] 
+             rounded-md shadow-md border border-black flex flex-col md:flex-row 
+           items-center justify-evenly mt-[390px] md:mt-[-60px] z-50"
+          >
+            <div className="font-extrabold text-4xl ">600+</div>
+            <div className="font-extrabold text-4xl">2K+</div>
+            <div className="font-extrabold text-4xl">53+</div>
+            <div className="font-extrabold text-4xl">3K+</div>
+          </div>
+        </div>
       {/*2nd page */}
-      <div className="items-center">
-        <div className="flex flex-col mt-[150px] bg-white  space-x-20.5 w-[1200px] rounded-4xl items-center">
+      <div className="items-center mt-[300px] md:mt-[10px]">
+        <div className="flex flex-col mt-[100px] md:mt-[150px] bg-white  ml-[50px] md:space-x-20.5 w-[90%] md:w-[1200px] rounded-4xl items-center">
           <span className=" text-red-600 font-medium mt-[20px]">
             {" "}
             LATEST SERVICE
           </span>
-          <div className="text-4xl text-black font-medium pt-[10px]">
+          <div className="text-4xl text-black font-medium  pt-[20px] md:pt-[50px]">
             Your Trusted Car Provider
             <br />
             Keeping Your Vehicle
           </div>
-          <div className="flex flex-row justify-center m-[40px] ">
+          <div className="flex flex-col md:flex-row justify-center m-[40px] ">
             <div
               className="flex flex-col items-center justify-center 
-                    w-[300px] h-[300px] rounded-md border-2 border-black 
+                   w-[500px] md:w-[300px] h-[300px]  rounded-4xl border-4 md:rounded-3xl border-2 border-black 
                    hover:bg-black hover:text-white m-[20px] dark:hover:bg-black dark:hover:text-white "
             >
               <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full "></div>
 
-              <div className="font-bold text-lg mt-2">
+              <div className="font-bold text-3xl md:text-lg mt-2">
                 Transformation Advising
               </div>
 
-              <div className="text-center">
+              <div className=" md:text-sm text-2xl text-center">
                 Car service is essential for maintaining the performance and
                 longevity of your vehicle. From oil changes Car service
               </div>
@@ -130,30 +141,31 @@ export default function Landingpage() {
 
             <div
               className="flex flex-col items-center justify-center 
-w-[300px] h-[300px] rounded-md border-2 border-black 
-hover:bg-black hover:text-white  m-[20px]"
+                   w-[500px] md:w-[300px] h-[300px]  rounded-4xl border-4 md:rounded-3xl border-2 border-black 
+                   hover:bg-black hover:text-white m-[20px] dark:hover:bg-black dark:hover:text-white "
             >
               <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full"></div>
 
-              <div className="font-bold text-lg mt-2">
+              <div className="font-bold text-3xl md:text-lg mt-2">
                 Easy Drive Maintenance
               </div>
 
-              <div className="text-center">
+              <div className=" md:text-sm text-2xl text-center">
                 Car service is essential for maintaining the performance and
                 longevity of your vehicle. From oil changes Car service
               </div>
             </div>
             <div
               className="flex flex-col items-center justify-center 
-w-[300px] h-[300px] rounded-md border-2 border-black shadow-black
-hover:bg-black hover:text-white m-[20px]"
+                   w-[500px] md:w-[300px] h-[300px]  rounded-4xl border-4 md:rounded-3xl border-2 border-black 
+                   hover:bg-black hover:text-white m-[20px] dark:hover:bg-black dark:hover:text-white "
             >
               <div className="bg-linear-60 bg-indigo-400 w-[80px] h-[80px] rounded-full"></div>
+              <div className="font-bold text-3xl md:text-lg mt-2">
+                Elite Auto Services
+              </div>
 
-              <div className="font-bold text-lg mt-2">Elite Auto Services</div>
-
-              <div className="text-center">
+              <div className=" md:text-sm text-2xl text-center">
                 Car service is essential for maintaining the performance and
                 longevity of your vehicle. From oil changes Car service
               </div>
@@ -162,8 +174,8 @@ hover:bg-black hover:text-white m-[20px]"
         </div>
       </div>
       {/*3rd page */}
-      <div className="flex flex-row h-[500px] w-[1000px] mt-[100px] items-center ">
-        <div className=" w-[600px] h-[400px] ">
+      <div className="flex flex-col md:flex-row h-[500px] w-[1000px] mt-[100px] items-center ">
+        <div className=" md:w-[600px] md:h-[400px] ">
           <span className=" text-red-600 font-medium"> ABOUT US</span>
           <div className="text-4xl text-black font-medium pt-[30px]">
             Fast and Reliable Car Care
@@ -437,7 +449,7 @@ hover:bg-black hover:text-white m-[20px]"
             YEARLY
           </div>
         </div>
-        <div className="flex flex-row ">
+        <div className="flex flex-col md:flex-row ">
           <div className="flex flex-col h-[600px] w-[400px] bg-white rounded-2xl shadow-xl overflow-hidden mt-[50px]">
             {/* block 2*/}
             <div className="flex flex-col h-[200px] w-[400px]">
@@ -512,7 +524,7 @@ hover:bg-black hover:text-white m-[20px]"
           </div>
           <div className="flex ml-[30px] flex-col h-[600px] w-[400px] bg-white rounded-2xl shadow-xl overflow-hidden mt-[50px]">
             {/* block 2*/}
-            <div className="flex flex-col h-[200px] w-[400px]">
+            <div className="flex flex-col h-[200px] w-fit md:w-[400px]">
               <div className=" ml-[40px] w-[400px] text-black font-semibold text-4xl mt-[30px]">
                 Free
               </div>
@@ -543,121 +555,6 @@ hover:bg-black hover:text-white m-[20px]"
               </div>
               <div className="  mt-[30px] ml-[40px] rounded-3xl h-[50px] w-[310px] bg-gray-300 hover:bg-red-800 hover:text-white text-black ">
                 GET SARTED NOW
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* 9 th page*/}
-      <div className=" flex flex-col h-[600px] w-full  text-black  m-[100px]">
-        <div className="flex flex-col  w-full text-white ml-[20px]">
-          <span className="  text-red-600 text-xs font-medium mt-[30px]">
-            LATEST BLOG AND NEWS
-          </span>
-        </div>
-        <div className="flex flex-row mt-[10px]">
-          <div className="ml-[20px] text-4xl font-semibold">
-            Our Best Recent Blog And News
-          </div>
-          <div className="ml-[600px] h-[40px]  hover:bg-black hover:text-white rounded-3xl w-[100px] bg-gray-50 border border-2 border-black">
-            VIEW MORE
-          </div>
-        </div>
-        <div className="flex flex-row h-[600px] w-full bg-black">
-          <div className="h-[400px] w-[300px]  bg-white rounded-3xl m-[50px]">
-            {/*image */}
-            <div>
-              <img
-                className="h-[170px] m-[15px] w-[270px] rounded-3xl"
-                src="https://themehealer.com/php-template/crank-php/assets/images/team/team-1-3.jpg"
-              />
-            </div>
-            {/*middle col */}
-            <div className="flex flex-row h-[30px] w-[300px]">
-              <div className="mt-[30px] ml-[20px] ">By admin</div>
-              <div className="mt-[30px] ml-[50px] ">O comment</div>
-              <div className="mt-[30px] ml-[80px] rounded-4xl h-[50px] w-[50px] text-white bg-red-700">
-                20
-                <br />
-                OCT
-              </div>
-            </div>
-            <div className="text-black font-semibold text-2xl mt-[40px] ml-[20px]">
-              Your Trusted Car Service
-              <br /> Provider Keeping
-              <div className="font-bold text-black mt-[40px] ml-[20px]">
-                READ MORE
-              </div>
-            </div>
-          </div>
-          <div className="ml-[20px] text-4xl font-semibold">
-            Our Best Recent Blog And News
-          </div>
-          <div className="ml-[600px] h-[40px]  hover:bg-black hover:text-white rounded-3xl w-[100px] bg-gray-50 border border-2 border-black">
-            VIEW MORE
-          </div>
-        </div>
-        <div className="flex flex-row h-[600px] w-full bg-black">
-          <div className="h-[400px] w-[300px]  bg-white rounded-3xl m-[50px]">
-            {/*image */}
-            <div>
-              <img
-                className="h-[170px] m-[15px] w-[270px] rounded-3xl"
-                src="https://themehealer.com/php-template/crank-php/assets/images/team/team-1-3.jpg"
-              />
-            </div>
-            {/*middle col */}
-            <div className="flex flex-row h-[30px] w-[300px]">
-              <div className="mt-[30px] ml-[20px] ">By admin</div>
-              <div className="mt-[30px] ml-[50px] ">O comment</div>
-              <div className="mt-[30px] ml-[80px] rounded-4xl h-[50px] w-[50px] text-white bg-red-700">
-                20
-                <br />
-                OCT
-              </div>
-            </div>
-            <div className="text-black font-semibold text-2xl mt-[40px] ml-[20px]">
-              Your Trusted Car Service
-              <br /> Provider Keeping
-              <div className="font-bold text-black mt-[40px] ml-[20px]">
-                READ MORE
-              </div>
-            </div>
-          </div>
-
-          <div className=" flex flex-col ml-[20px] text-4xl font-semibold">
-            Our Best Recent Blog And News
-          </div>
-          <div className="ml-[600px] h-[40px]  hover:bg-black hover:text-white rounded-3xl w-[100px] bg-gray-50 border border-2 border-black">
-            VIEW MORE
-          </div>
-        </div>
-        <div>
-          <div className="flex flex-row h-[600px] w-full bg-black">
-            <div className="h-[400px] w-[300px]  bg-white rounded-3xl m-[50px]">
-              {/*image */}
-              <div>
-                <img
-                  className="h-[170px] m-[15px] w-[270px] rounded-3xl"
-                  src="https://themehealer.com/php-template/crank-php/assets/images/team/team-1-3.jpg"
-                />
-              </div>
-              {/*middle col */}
-              <div className="flex flex-row h-[30px] w-[300px]">
-                <div className="mt-[30px] ml-[20px] ">By admin</div>
-                <div className="mt-[30px] ml-[50px] ">O comment</div>
-                <div className="mt-[30px] ml-[80px] rounded-4xl h-[50px] w-[50px] text-white bg-red-700">
-                  20
-                  <br />
-                  OCT
-                </div>
-              </div>
-              <div className="text-black font-semibold text-2xl mt-[40px] ml-[20px]">
-                Your Trusted Car Service
-                <br /> Provider Keeping
-                <div className="font-bold text-black mt-[40px] ml-[20px]">
-                  READ MORE
-                </div>
               </div>
             </div>
           </div>
