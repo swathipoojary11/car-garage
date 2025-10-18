@@ -5,7 +5,7 @@ export default function Landingpage() {
   2. dark/light mode conditonal css(break point 
   4. animations  dark:bg-blue-950*/
   return (
-    <div className=" flex flex-col items-center justify-center h-full md:min-h-screen w-fit md:w-full ">
+    <div className="bg-gray-100 dark:bg-gray-900 flex flex-col items-center justify-center h-full md:min-h-screen w-fit md:w-full ">
       <div className="min-h-screen bg-black w-[100%] md:w-[1400px] h-[1500px] md:h-[500px]  items-center md:rounded-[80px] mx-[100px] flex flex-col">
         <div className="bg-gray-800 h-[400px] md:h-[100px] rounded-2xl w-[1400px] md:w-[1200px] flex flex-row justify-center items-center py-2 ">
           <img
@@ -313,7 +313,7 @@ export default function Landingpage() {
         </div>
       </div>
       {/*5th page */}
-      <div className="flex flex-col w-full mt-[4200px] md:mt-[800px]   rounded-4xl items-center">
+      <div className="flex flex-col w-full mt-[5050px] md:mt-[800px] h-auto  rounded-4xl items-center">
         <span className=" dark:text-red-500 text-red-600 font-bold md:text-sm text-4xl md:font-medium mt-[30px] md:mt-[20px]">
           ASK QUESTION
         </span>
@@ -342,7 +342,7 @@ export default function Landingpage() {
         </div>
       </div>
       {/*6th page */}
-      <div className=" dark:border-1 dark:border-white flex flex-col h-[1500px] md:h-[500px] w-[1300px] bg-black md:my-[1px] md:mx-[5px] my-[200px] mx-[40px] rounded-4xl py-2 ">
+      <div className=" dark:border-1 dark:border-white flex flex-col h-[1500px] md:h-[500px] w-[1300px] bg-black  md:mt-[200px] mt-[900px] rounded-4xl py-2 ">
         <div className="flex flex-col h-[100px] w-[200px] m-[40px]">
           <span className=" dark:text-red-500  text-red-600 font-bold md:text-sm text-4xl md:font-medium mt-[30px] md:mt-[20px]">
             TESTIMONIAL
@@ -413,7 +413,7 @@ export default function Landingpage() {
         </div>
       </div>
       {/*7th page */}
-      <div className="flex flex-col h-[500px] w-full dark:text-white text-black items-center">
+      <div className="flex flex-col h-[500px] w-full dark:text-white text-black mt-[300px] md:mt-[100px] items-center">
         <span className="dark:text-red-500 text-red-600 font-bold md:text-sm text-4xl md:font-medium mt-[30px] md:mt-[20px]">
           OUR TEAM
         </span>
