@@ -1,6 +1,8 @@
 # Car Garage Landing Page
 
-A clean, modern, and responsive static landing page built for an automotive service and repair garage. This is my first complete frontend project built using **Next.js**, **React**, and **Tailwind CSS**.
+**Car Garage** is a responsive, modern static landing page built as a foundational frontend web development project. Designed for an automotive repair and maintenance service business, it showcases core garage offerings, customer value propositions, and appointment booking inquiry points through a clean, accessible user interface.
+
+This is my first complete frontend project built using **Next.js**, **React**, and **Tailwind CSS**.
 
 ---
 
@@ -22,7 +24,7 @@ A clean, modern, and responsive static landing page built for an automotive serv
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 car-garage/
